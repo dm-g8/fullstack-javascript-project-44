@@ -1,6 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "hexlet-project-44",
   "main": "index.js",
   "scripts": {
