@@ -7,3 +7,5 @@ publish: # публикация пакета с флагом для отладк
 	npm publish --dry-run
 lint: # запуск eslint
 	npx eslint .
+brain-even: # запуск игры brain-even
+	node bin/brain-even.js
