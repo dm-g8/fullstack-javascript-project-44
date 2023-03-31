@@ -14,7 +14,7 @@ const brainEven = () => {
     const rand = getRandomNumber(-100, 100);
     console.log(`Question: ${rand}`);
     const answer = readlineSync.question('Your answer: ');
-    if (answer == 'yes' && rand % 2 === 0 || answer == 'no' && rand % 2 !== 0) {
+    if ((answer === 'yes' && rand % 2 === 0) || (answer === 'no' && rand % 2 !== 0)) {
       console.log('Correct!');
     } else {
       console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
