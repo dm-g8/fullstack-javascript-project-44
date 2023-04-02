@@ -1,3 +1,14 @@
 import {arg1, oper, arg2} from '../index.js';
 
-export default result = eval (`${arg1} + ${oper} + ${arg2}`);
+let result;
+if (oper === '+') {
+    result = arg1 + arg2;
+    return result;
+} else if (oper === '-') {
+    result = arg1 - arg2;
+    return result;
+} else {
+    result = arg1 * arg2;
+    return result;
+}
+export default result;

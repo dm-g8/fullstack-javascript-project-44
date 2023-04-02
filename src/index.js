@@ -2,7 +2,7 @@
 import readlineSync from 'readline-sync';
 // импорт для игры Калькулятор
 import chooseYourGame from '../bin/brain-calc.js';
-import result from 'games/calc-source.js';
+import result from './games/calc-source.js';
 
 
 // генератор случайных чисел из диапазона от min до max
