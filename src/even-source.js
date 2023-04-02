@@ -6,7 +6,7 @@ const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)
 
 const brainEven = () => {
   const userName = readlineSync.question('May I have your name?: ');
-  console.log(`Hi, ${userName}!`);
+  console.log(`Hello, ${userName}!`);
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
