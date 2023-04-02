@@ -8,4 +8,3 @@ const chooseYourGame = 'brain-calc';
 mainBrainGame();
 
 export default chooseYourGame;
-
