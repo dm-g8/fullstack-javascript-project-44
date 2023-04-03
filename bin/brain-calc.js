@@ -2,9 +2,8 @@
 // импорт функции из общего файла index.js
 import mainBrainGame from '../src/index.js';
 
-const chooseYourGame = 'brain-calc';
-
+const chooseYourGame = 'brain-calc'
 // вызов функции
-mainBrainGame();
+mainBrainGame(chooseYourGame);
 
-export default chooseYourGame;
+
