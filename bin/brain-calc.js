@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-// импорт функции из общего файла index.js
-import mainBrainGame from '../src/index.js';
+// импорт функции
+import game from '../src/games/calc-source.js';
 
-const chooseYourGame = 'brain-calc'
 // вызов функции
-mainBrainGame(chooseYourGame);
+game;
 
-
+//export default function run () { run.isRunning = true;}
