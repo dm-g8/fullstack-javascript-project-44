@@ -5,4 +5,4 @@ import game from '../src/games/calc-source.js';
 // вызов функции
 game;
 
-//export default function run () { run.isRunning = true;}
+// export default function run () { run.isRunning = true;}
