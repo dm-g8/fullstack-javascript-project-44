@@ -1,10 +1,12 @@
 // импорт функции из общего файла index.js
 import game from '../index.js';
+// импорт функции генератора случайных чисел из диапазона от min до max
+import getRandomNumber from '../getRandomNumber.js';
 
 // генератор случайных чисел из диапазона от min до max
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+// const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const gameData = () => {
+function gameData() {
   const rand = getRandomNumber(-100, 100);
   const question = `${rand}`;
 
@@ -16,7 +18,7 @@ const gameData = () => {
     } return 'undefinite';
   };
   return [question, result()];
-};
+}
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 

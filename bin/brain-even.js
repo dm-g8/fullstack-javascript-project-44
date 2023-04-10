@@ -3,4 +3,4 @@
 import game from '../src/games/even-source.js';
 
 // вызов функции
-game;
+game();
