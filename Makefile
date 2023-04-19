@@ -13,3 +13,6 @@ brain-calc: # запуск игры brain-calc
 	node bin/brain-calc.js
 brain-gcd: # запуск игры brain-gcd
 	node bin/brain-gcd.js
+brain-progression: # запуск игры brain-progression
+	node bin/brain-progression.js
+

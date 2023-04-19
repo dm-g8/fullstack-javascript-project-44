@@ -5,10 +5,24 @@ import getRandomNumber from '../getRandomNumber.js';
 
 
 function gameData() {
-  const arg1 = getRandomNumber(-10, 10);
-  const arg2 = getRandomNumber(-10, 10);
+  let arg1 = getRandomNumber(-10, 10);
+  const delta = getRandomNumber(-10, 10);
+  const length = getRandomNumber(5, 10);
+  const randomPlace = getRandomNumber(1, length);
 
-  const question = `${arg1} ${arg2}`;
+
+
+  let question = `${arg1} `;
+
+  for (let i = 1; i <= length; i += 1) {
+    if (i = randomPlace) {
+      arg1 = arg1 + delta;
+      question = question + `.. `;
+    } else {
+      arg1 = arg1 + delta;
+      question = question + `${arg1} `;
+    };
+  };
 
   const result = () => {
 //    if (`${oper}` === '+') {
