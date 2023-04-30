@@ -29,7 +29,7 @@ export default function game(indexData, rules) {
       console.log('Correct!');
     } else {
       console.log(`'${userInput}' is wrong answer ;(. Correct answer was '${result}'.`);
-      console.log(`Let's try again, '${userName}!`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
   }
