@@ -18,7 +18,7 @@ function gameData() {
   }
   mass[randomIndexMass] = '..';
 
-  let question = ' ';
+  let question = '';
   for (let j = 0; j < length; j += 1) {
     question += `${mass[j]} `;
   }

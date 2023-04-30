@@ -33,7 +33,7 @@ export default function game(indexData, rules) {
       return;
     }
   }
-  console.log(`Congratulations, ${userName}!'`);
+  console.log(`Congratulations, ${userName}!`);
 }
 
 // экспорт, когда работает только одна функция
