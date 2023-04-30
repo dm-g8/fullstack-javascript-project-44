@@ -1,10 +1,11 @@
 ### Проект: Игры разума
 #### Список игр:
-1. brain-even - игра: "Проверка на чётность"
-2. rain-calc - игра: "Калькулятор"
-3. brain-gcd - игра "наибольший общий делитель (НОД)"
-4. brain-progression - игра "Арифметическая прогрессия"
-5. brain-prime - игра "Простое ли число?"
+1. brain-games - приветствие пользователя
+2. brain-even - игра: "Проверка на чётность"
+3. rain-calc - игра: "Калькулятор"
+4. brain-gcd - игра "наибольший общий делитель (НОД)"
+5. brain-progression - игра "Арифметическая прогрессия"
+6. brain-prime - игра "Простое ли число?"
 
 ### Установка
 1. Склонируйте репозиторий на свой компьютер с помощью команды git clone.
@@ -15,13 +16,15 @@
 [![Actions Status](https://github.com/dm-g8/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dm-g8/fullstack-javascript-project-44/actions)
 <a href="https://codeclimate.com/github/dm-g8/fullstack-javascript-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/849ec49e09388b7ea983/maintainability" /></a>
 ### asciinemas
+#### brain-games:
+<a href="https://asciinema.org/a/581575" target="_blank"><img src="https://asciinema.org/a/581575.svg" /></a>
 #### brain-even:
-<a href="https://asciinema.org/a/576748" target="_blank"><img src="https://asciinema.org/a/576748.svg" /></a>
+<a href="https://asciinema.org/a/581576" target="_blank"><img src="https://asciinema.org/a/581576.svg" /></a>
 #### brain-calc:
-<a href="https://asciinema.org/a/576753" target="_blank"><img src="https://asciinema.org/a/576753.svg" /></a>
+<a href="https://asciinema.org/a/581577" target="_blank"><img src="https://asciinema.org/a/581577.svg" /></a>
 #### brain-gcd:
-<a href="https://asciinema.org/a/578169" target="_blank"><img src="https://asciinema.org/a/578169.svg" /></a>
+<a href="https://asciinema.org/a/581578" target="_blank"><img src="https://asciinema.org/a/581578.svg" /></a>
 #### brain-progression:
-<a href="https://asciinema.org/a/581545" target="_blank"><img src="https://asciinema.org/a/581545.svg" /></a>
+<a href="https://asciinema.org/a/581579" target="_blank"><img src="https://asciinema.org/a/581579.svg" /></a>
 #### brain-prime:
-<a href="https://asciinema.org/a/581554" target="_blank"><img src="https://asciinema.org/a/581554.svg" /></a>
+<a href="https://asciinema.org/a/581580" target="_blank"><img src="https://asciinema.org/a/581580.svg" /></a>
