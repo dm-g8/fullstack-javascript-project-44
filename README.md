@@ -8,3 +8,5 @@
 <a href="https://asciinema.org/a/576753" target="_blank"><img src="https://asciinema.org/a/576753.svg" /></a>
 #### brain-gcd:
 <a href="https://asciinema.org/a/578169" target="_blank"><img src="https://asciinema.org/a/578169.svg" /></a>
+#### brain-progression:
+<a href="https://asciinema.org/a/581545" target="_blank"><img src="https://asciinema.org/a/581545.svg" /></a>
