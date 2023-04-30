@@ -1,3 +1,16 @@
+### Проекта: Игры разума
+#### Список игр:
+1. brain-even - игра: "Проверка на чётность"
+2. rain-calc - игра: "Калькулятор"
+3. brain-gcd - игра "наибольший общий делитель (НОД)"
+4. brain-progression - игра "Арифметическая прогрессия"
+5. brain-prime - игра "Простое ли число?"
+
+### Установка
+1. Склонируйте репозиторий на свой компьютер с помощью команды git clone.
+2. С помощью команды make install установите необходимые зависимости.
+3. Запустите одну из игр с помощью ввода названия игры в терминале.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/dm-g8/fullstack-javascript-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dm-g8/fullstack-javascript-project-44/actions)
 <a href="https://codeclimate.com/github/dm-g8/fullstack-javascript-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/849ec49e09388b7ea983/maintainability" /></a>
